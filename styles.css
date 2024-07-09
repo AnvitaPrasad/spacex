@@ -8,7 +8,13 @@ body {
 #hero {
     background-image: url("images/galaxy.webp");
     background-size: cover;
-    padding: 10px 0 40px 0;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-logo {
@@ -31,4 +37,3 @@ body {
 .underline {
     border-bottom: 4px solid white;
 }
-   
