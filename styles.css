@@ -10,11 +10,12 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh; 
+    height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 #main-logo {
@@ -32,6 +33,11 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: #82a5ca;
     font-weight: 800;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    background-color: #f0f0f0; 
 }
 
 .underline {
