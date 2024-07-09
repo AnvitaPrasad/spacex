@@ -12,10 +12,8 @@ body {
 }
 
 #hero {
-    background-image: url("images/galaxy.webp");
+    background: url("images/galaxy.webp") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh; /* Full viewport height */
     width: 100%;
     display: flex;
